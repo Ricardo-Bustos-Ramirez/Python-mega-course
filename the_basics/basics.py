@@ -34,6 +34,7 @@ print(monday_temperatures[1:3])
 print(monday_temperatures[:2])
 print(monday_temperatures[3:])
 print(monday_temperatures[-1])
-print(monday_temperatures[-2:])
+print(monday_temperatures[-3:])
+monday_temperatures = ['hello', 1, 2, 3]
 
 
