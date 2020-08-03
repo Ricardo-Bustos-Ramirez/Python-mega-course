@@ -28,13 +28,16 @@
 # monday_temperatures = (1, 4, 5)
 # print(monday_temperatures)
 
-monday_temperatures = [9.1, 8.8, 7.5, 6.6, 9.9]
-monday_temperatures.__getitem__(1)
-print(monday_temperatures[1:3])
-print(monday_temperatures[:2])
-print(monday_temperatures[3:])
-print(monday_temperatures[-1])
-print(monday_temperatures[-3:])
-monday_temperatures = ['hello', 1, 2, 3]
+# monday_temperatures = [9.1, 8.8, 7.5, 6.6, 9.9]
+# monday_temperatures.__getitem__(1)
+# print(monday_temperatures[1:3])
+# print(monday_temperatures[:2])
+# print(monday_temperatures[3:])
+# print(monday_temperatures[-1])
+# print(monday_temperatures[-3:])
+# monday_temperatures = ['hello', 1, 2, 3]
+
+student_grades = {"Marry": 9.1, "Sim": 8.8, "John": 7.5}
+eng_port = {"rain": "chuva", "sun": "sol"}
 
 
