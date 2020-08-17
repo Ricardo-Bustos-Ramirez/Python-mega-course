@@ -3,8 +3,6 @@ def mean(mylist):
     the_mean = sum(mylist) / len(mylist)
     return the_mean
 
-print(mean([1, 4, 5]))
-print(type(mean), type(sum))
-
-my_mean = mean([0, 3, 4])
+student_grades = {"Marry": 9.1, "Sim": 8.8, "John": 7.5}
+my_mean = mean(student_grades)
 print(my_mean + 10)
