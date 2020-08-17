@@ -1,8 +1,11 @@
-def mean(mylist):
-    print("Function started!")
-    the_mean = sum(mylist) / len(mylist)
+def mean(value):
+    if type(value) == dict:
+        the_mean = sum(value.values()) / len(value)
+    else:
+        the_mean = sum(value) / len(value)
     return the_mean
 
 student_grades = {"Marry": 9.1, "Sim": 8.8, "John": 7.5}
-my_mean = mean(student_grades)
-print(my_mean + 10)
+monday_temperatures = [8.8, 9.1, 9.9]
+print(mean(student_grades))
+print(mean(monday_temperatures))
