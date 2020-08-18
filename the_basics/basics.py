@@ -1,17 +1,11 @@
-if      3>1:
-    print('a')
+def weather_condition(temperature):
+    if temperature > 7:
+        return "Warm"
+    else:
+        return "Cold"
 
-print('aa')
-print('aaa')
+user_input = float(input("Enter temperature: "))
+print(weather_condition(user_input))
 
-if 3>1:
-    print('b')
-
-print('bb')
-print('bbb')
-
-if 3 > 1:
-    print('c')
-
-print('cc')
-print('ccc')
+user_input = int(input("Enter some input: "))
+print(type(user_input), user_input)
