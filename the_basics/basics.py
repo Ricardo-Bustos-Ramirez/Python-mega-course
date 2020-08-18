@@ -1,5 +1,4 @@
-a = 3
+username = ''
 
-while a > 0:
-    print(1)
-    print(2)
+while username != 'pypy':
+    username = input("Enter a username: ")
