@@ -1,9 +1,8 @@
-name = input("Enter your name: ")
-surname = input("Enter your surname: ")
-when = "today"
+monday_temperatures = [9.1, 8.7, 7.6]
 
-message_1 = "Hello %s %s!" % (name, surname)    # This works for both Python 2 and 3
-message_2 = f"Hello {name} {surname}. What's up {when}?"       # New way for Python 3.6
+for temperature in monday_temperatures:
+    print(round(temperature))
+    print("Done")
 
-print(message_1)
-print(message_2)
+for letter in "Hello":
+    print(letter.title())
