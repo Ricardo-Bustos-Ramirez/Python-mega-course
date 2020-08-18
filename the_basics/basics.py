@@ -1,11 +1,5 @@
-def weather_condition(temperature):
-    if temperature > 7:
-        return "Warm"
-    else:
-        return "Cold"
-
-user_input = float(input("Enter temperature: "))
-print(weather_condition(user_input))
-
-user_input = int(input("Enter some input: "))
-print(type(user_input), user_input)
+user_input = input("Enter your name: ")
+message_1 = "Hello %s!" % user_input    # This works for both Python 2 and 3
+message_2 = f"Hello {user_input}"       # New way for Python 3.6
+print(message_1)
+print(message_2)
